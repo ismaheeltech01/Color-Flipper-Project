@@ -39,3 +39,49 @@
     color: #fff;
     background-color: blue;
 }
+
+button {
+    display: block;
+    margin: 1rem auto;
+    border: none;
+    padding: .55rem 1rem;
+    text-align: center;
+    background-color: rgb(53, 13, 13);
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px rgba(255,255,255,0.8);
+    transition: .3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(100, 155, 203);
+    color: #000;
+}
+
+
+@media (max-width: 500px) {
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #ddd;
+    }
+    
+    .container h2 {
+        background-color: bisque;
+        padding: 1rem;
+        border-radius: 20px;
+        margin-bottom: 1rem;
+    }
+    
+    .container p {
+        padding: 1rem;
+        border-radius: 20px;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        color: #fff;
+        background-color: blue;
+        text-align: center;
+    }
+}
